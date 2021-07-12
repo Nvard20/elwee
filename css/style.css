@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --orange:#f18a00;
+    --black: #282828;
+}
 .left-side {
     width: 150px;
     height: 100vh;
@@ -44,14 +48,14 @@ a{
 margin: 0 15px;
 }
 .menu-aside > ul > li > a{
-    color: #282828;
+    color: var(--black);
     font-weight: 600;
     font-family: sans-serif;
     font-size: 15px;
     transition: all .2s;
 }
 .menu-aside > ul > li > a:hover{
-    color: #f18a00;
+    color:  var(--orange);
 
 }
 .menu-aside{
@@ -67,11 +71,10 @@ margin: 0 15px;
    
     font-size: 50%;
     border-radius: 50%;
-    color: #f18a00;
+    color:  var(--orange);
 }
 .top{
     width: 30px;
-    /* margin: auto; */
     display: block;
     position: absolute;
     left: 40%;
