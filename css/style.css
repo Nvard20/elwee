@@ -85,3 +85,57 @@ margin: 0 15px;
     margin: auto;
     display: block;
 }
+.menu{
+    display: flex;
+}
+.header{
+    display: flex;
+    width: 84%;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin-top: 15px;
+}
+.logo-link{
+    width: 141px;
+    height: 54px;
+    display: block;
+}
+.nav-link{
+    font-size: 18px;
+    color:  var(--black);
+    font-family: sans-serif;
+    transition: all .2s;
+}
+.menu > li{
+    margin-right: 12px;
+}
+.nav-link:hover{
+    color: var(--orange);
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.hamburger{
+    margin-left: 20px;
+    width: 50px;
+
+}
+.burger{
+    cursor: pointer;
+}
+.burger{
+    transition: all ease-in-out .2s;
+}
+.bar-2{
+    opacity: 0;
+    visibility: hidden;
+}
+#burger-svg:hover .bar-1{
+    opacity: 0;
+}
+#burger-svg:hover .bar-1{
+    opacity: 1;
+}
