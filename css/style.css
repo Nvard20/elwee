@@ -339,3 +339,14 @@ margin-top: 40px;
     font-size: 1.7vw;
     font-family: sans-serif;
 }
+.motos-img {
+    max-width: 630px;
+    -webkit-box-flex: 40%;
+    -ms-flex: 40%;
+    flex: 40%;
+    margin-top: -15%;
+    z-index: 2;
+}
+.motos-img > img{
+    width: 100%;
+}
