@@ -91,9 +91,9 @@ margin: 0 15px;
 }
 .header{
     display: flex;
-    width: 84%;
+    margin-left: 150px;
+    margin-right: 50px;
     justify-content: space-between;
-    margin: auto;
     align-items: center;
     margin-top: 15px;
     z-index: 99999;
@@ -302,7 +302,7 @@ margin: 0 15px;
     display: none;
 }
 .container-main{
-    max-width: 1600px;
+    width: 85%;
     margin: auto;
 }
 .text > h1{
@@ -328,6 +328,8 @@ margin-top: 40px;
 }
 .landing-main{
     display: flex;
+   width: 100%;
+    height: calc(100vh - 111px);
 }
 
 .video-box > video{
@@ -338,15 +340,25 @@ margin-top: 40px;
 .wireframe-section-title{
     font-size: 1.7vw;
     font-family: sans-serif;
+    margin-top: 100px;
+
 }
 .motos-img {
     max-width: 630px;
     -webkit-box-flex: 40%;
     -ms-flex: 40%;
     flex: 40%;
-    margin-top: -15%;
+    margin-top: -25%;
     z-index: 2;
 }
 .motos-img > img{
     width: 100%;
+}
+.motos-container{
+    display: flex;
+    justify-content: space-between;
+}
+.landpage{
+    margin-left: 150px;
+    margin-right: 50px;
 }
