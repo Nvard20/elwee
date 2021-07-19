@@ -329,7 +329,13 @@ margin-top: 40px;
 .landing-main{
     display: flex;
    width: 100%;
+   justify-content: space-between;
+
+}
+.video-box{
     height: calc(100vh - 111px);
+    width: 100%;
+
 }
 
 .video-box > video{
@@ -361,4 +367,11 @@ margin-top: 40px;
 .landpage{
     margin-left: 150px;
     margin-right: 50px;
+}
+.text{
+    max-width: 50%;
+
+}
+.video-box{
+    max-width: 50%;
 }
